@@ -6,11 +6,6 @@ import static org.junit.Assert.assertFalse;
 import static org.junit.Assert.assertTrue;
 
 
-/**
- * Public Week 1 question tests.
- * DON'T MODIFY THIS FILE!
- */
-
 
 public class Question_6_Windows10Upgrade_Test {
     

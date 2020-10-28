@@ -6,11 +6,6 @@ import static org.junit.Assert.assertNotNull;
 import static org.junit.Assert.assertTrue;
 
 
-/**
- * Public Week 1 question tests.
- * DON'T MODIFY THIS FILE!
- */
-
 public class Question_1_MilesFromMCTC_Test {
     
     @Test(timeout=3000)
@@ -35,6 +30,7 @@ public class Question_1_MilesFromMCTC_Test {
         String result = Question_1_Miles_From_MCTC.milesFromMCTC(6);
         // The result should contain the text "less than 10 miles".
         // Case is not important, so convert to lower case
+        assertNotNull("Replace the return null; statement with your code", result);
         String resultLowerCase = result.toLowerCase();
         // Does the resultLowerCase string contain the expected text?
         boolean containsText = resultLowerCase.contains(less);

@@ -1,23 +1,13 @@
 package week_1;
 
-import junit.framework.TestCase;
-import org.junit.Assert;
 import org.junit.Test;
 
-import static org.junit.Assert.assertFalse;
-import static org.junit.Assert.assertTrue;
+import static org.junit.Assert.*;
 
-
-/**
- * Public Week 1 question tests.
- * DON'T MODIFY THIS FILE!
- */
-
-
-public class Question_4_MailPrices_Test extends TestCase {
+public class Question_4_MailPrices_Test {
     
     @Test(timeout=3000)
-    public void testCalculateStampPrice() throws Exception {
+    public void testCalculateStampPrice() {
 
         assertEquals("Rectangular, flat letters should cost 49c", 49, Question_4_Mail_Prices.calculateStampPrice(true, true));
         assertEquals("Rectangular, bumpy letters should cost 70c", 70, Question_4_Mail_Prices.calculateStampPrice(true, false));

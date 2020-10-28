@@ -25,8 +25,9 @@ import static input.InputUtils.yesNoInput;
 public class Question_4_Mail_Prices {
 
     // Some global constants. Use these variables in the calculateStampPrice method
-    public final static int machinableLetterPrice = 49;
-    public final static int nonMachinableSurcharge = 21;
+    // Convention is to use uppercase names for final (constant) variables.
+    public final static int MACHINABLE_LETTER_PRICE = 49;
+    public final static int NON_MACHINABLE_SURCHARGE = 21;
 
 
     public static void main(String[] args) {
@@ -50,7 +51,7 @@ public class Question_4_Mail_Prices {
 
         /* TODO Calculate and return the price, in cents, to mail the letter.
         * Use the two boolean variables isRectangle and isFlat to figure out the cost.
-        * Use the machinableLetterPrice and nonMachinableSurcharge variables declared above.
+        * Use the MACHINABLE_LETTER_PRICE and NON_MACHINABLE_SURCHARGE constants declared above.
         */
 
         //TODO delete this line and replace with your own code
