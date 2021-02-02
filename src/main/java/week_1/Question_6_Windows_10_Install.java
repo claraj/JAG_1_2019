@@ -9,14 +9,14 @@ import static input.InputUtils.*;
  •	1 GHz or faster processor   AND
  •	2 GB or more RAM
 
- Write a program that asks the user for the current version of their
+ Finish this program that asks the user for the current version of their
  operating system, the CPU speed, and amount of RAM.
 
- You will need to use && and || operator in conditions to display a message telling the user
- if they are able to install Windows 10.
+ Use && and || operator in conditions to finish the method that decides if a user
+ is able to install Windows 10.
  
- Tip: if your program is failing the tests, check page 74 of Think Java, and/or look up short circuit evaluation.
-
+ Tip: if your program is failing the tests, check page 74 of Think Java, e-book link here,
+ https://books.trinket.io/thinkjava2/chapter5.html#sec63, and/or look up short circuit evaluation.
  */
 
 public class Question_6_Windows_10_Install {
